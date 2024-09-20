@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#nav-bar{
+    height: 70px;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav-logo{
+    height: 60px;
+    width: 120px;
+}
+#amazon-logo{
+    height: 50px;
+    width: 120px;
+    background-image: url('amazon_logo.png');
+    background-size: cover;
+    background-position: center;
+}
+.border:hover{
+    border: 1.5px solid #fff;
+}
+#nav-address{
+    height: 60px;
+    margin-right: 2px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 9px;
+}
+
+#location-icon{
+    color: #fff;
+}
+#nav-line1{
+    margin-left:15px;
+    color: #cccccc;
+    font-size: 12px;
+}
+#nav-line2{
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+
+}
+#nav-search{
+    display: flex;
+    width: 751px;
+}
+#nav-input{
+    width: 100%;
+    border:none;
+}
+#nav-input:focus{
+    outline: none;
+}
+#nav-select{
+    height: 40px;
+    width: 50px;
+    background-color: #E6E6E6;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    text-align: center;
+}
+#nav-select:hover{
+    background-color: #e6e6e6e7;
+}
+#search-logo{
+    height: 40px;
+    width: 50px;
+    background-color: rgb(237, 170, 46);
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+}
+#nav-search:hover{
+    border: 2.5px solid rgb(237, 170, 46);
+    border-radius: 8px;
+}
+#country{
+    height: 60px;
+    width: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 3px;
+}
+
+#india-flag{
+    height: 15px;
+    width: 20px;
+    background-image: url("india.png");
+    background-size: cover;
+}
+
+#country-options{
+    height: 18px;
+    width: 18px;
+    border: none;
+    background-color:#0f1111 ;
+    color: #37475a;
+}
+
+#EN{
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: white;
+}
+#signin{
+    height: 50px;
+    width: 130px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3px;
+    
+}
+#signin-line1{
+    margin-left: 5px;
+    font-size: 12px;
+}
+#signin-line2{
+    margin-left: 2px;
+    font-weight: 600;
+    font-size: 14px;
+}
+#return-order{
+    height: 60px;
+    width: 75px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.line1{
+    margin-left: 5px;
+    font-size: 12px;
+}
+.line2{
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+#nav-cart{
+    height: 60px;
+    width: 80px;
+    color: #fff;
+    display: flex;
+    
+    justify-content: space-evenly;
+    align-items: center;
+}
+#cart-count{
+    color: orange ;
+}
+#cart-icon{
+    font-size: 20px;
+}
+#wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#cart-text{
+    margin-top: 20px;
+}
+#panel{
+    height: 40px;
+    width: 100%;
+    background-color: #071123dc;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#panel-all{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 9px;
+}
+#menu-hamburger{
+    margin: 0 5px 0 9px;
+}
+#nav-a a{
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 9px;
+}
+#primead{
+    height: 39px;
+    width: 400px;
+    background-image: url('prime-ads.jpg');
+}
+#subnav{
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 1px #ddd;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#AmazonFashion{
+    height: 50px;
+    width: 190px;
+    background-image: url('fashion-logo.png');
+    background-size: cover;
+} 
+#subnav a{
+    text-decoration: none;
+    color: #000;
+    padding: 0 13px;
+    border: none;
+
+}
+#subnav a:hover{
+    border-bottom: 2px solid orange;
+}
+/* #web-contianer{
+    height: auto;
+    width: 1519.2px;
+    margin: 0;
+    padding: 14px 18px 18px 18px;
+} */
+#banner{
+    height: 384px;
+    width: 1443px;
+    background-image: url('banner-sale.jpg');
+    background-size: cover;
+}
+#ad-section{
+    height: 105px;
+    width: 1479.2;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#item1{
+    height: 105.65px;
+    width: 739.6px;
+    background-image: url('ONE-CARD-ads.png');
+    background-size: cover;
+}
+#item2{
+    height: 105.65px;
+    width: 739.6px;
+    background-image: url('apay.png'); 
+    background-size: cover;
+}
+#wrap-banner{
+    padding: 10px 20px;
+    background-color: #e0dbdb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#item-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.cards{
+    height:340px ;
+    width: 18%;
+    margin: 10px 0 0 0;
+}
+#card1{
+    background-image: url('mens_clothing.png');
+    background-size: cover;
+}
+#card2{
+    background-image: url('womens_clothing.png');
+    background-size: cover;
+}
+#card3{
+    background-image: url('3.png');
+    background-size: cover;
+}
+#card4{
+    background-image: url('4.png');
+    background-size: cover;
+}
+#card5{
+    background-image: url('5.png');
+    background-size: cover;
+}
+#card6{
+    background-image: url('6.png');
+    background-size: cover;
+}
+#card7{
+    background-image: url('Eye-wear.png');
+    background-size: cover;
+}
+#card8{
+    background-image: url('8.png');
+    background-size: cover;
+}
+#card9{
+    background-image: url('Hand-bag.png');
+    background-size: cover;
+}
+#card10{
+    background-image: url('10.png');
+    background-size: cover;
+}
+footer{
+    margin-top: 70px;
+}
+#panel-1{
+    height: 50px;
+    color: #fff;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#panel-1 a{
+    text-decoration:none;
+    color: #fff;
+}
+#panel-2{
+    background-color: #222f3d;
+    color: #fff;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 27px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 13px;
+    color: #dddddd;
+}
+#panel-3{
+    background-color: #222f3d;
+    height: 180px;
+    box-shadow: 0 0 1px #ddd;
+    border-bottom: 1px solid rgba(203, 201, 201, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#logo{
+    background-image: url('logo-a.png');
+    background-size: cover;
+    background-position: center;
+    height: 50px;
+    width: 120px;
+    font-size: 0.85rem;
+    text-align: center;
+}
+#panel-4{
+    background-color: #0f1111;
+    color: #fff;
+    height: 80px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+#pages{
+    padding-top: 25px;
+}
+#copyright{
+    padding-top: 5px;
+}
+#country{
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+a{
+    margin-right: 10px;
+}
